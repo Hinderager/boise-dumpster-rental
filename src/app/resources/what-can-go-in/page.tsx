@@ -4,7 +4,7 @@ import { Phone, CheckCircle, XCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'What Can Go in a Dumpster | Boise Dumpster Rental',
   description: 'What can and cannot go in a dumpster rental in Boise? Complete list of accepted and prohibited items.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/resources/what-can-go-in' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/resources/what-can-go-in' },
 }
 
 export default function WhatCanGoInPage() {
@@ -240,8 +240,8 @@ export default function WhatCanGoInPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Not Sure if We Can Take It?</h2>
           <p className="text-gray-300 mb-6">Give us a call and describe what you've got. We'll let you know.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

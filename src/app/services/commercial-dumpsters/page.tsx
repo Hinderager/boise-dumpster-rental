@@ -5,7 +5,7 @@ import { Phone, Building2 } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Commercial Dumpster Rental | Boise Dumpster Rental',
   description: 'Commercial dumpster rental in Boise for contractors and businesses. Construction, demolition, and commercial cleanouts.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/commercial-dumpsters' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters' },
 }
 
 export default function CommercialDumpstersPage() {
@@ -47,8 +47,8 @@ export default function CommercialDumpstersPage() {
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Ready to Book a Dumpster?</h2>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
