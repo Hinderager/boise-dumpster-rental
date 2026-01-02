@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Montserrat, Open_Sans } from 'next/font/google'
+import { Montserrat, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
@@ -7,9 +7,10 @@ import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
-const montserrat = Montserrat({
+const oswald = Oswald({
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
   display: 'swap',
 })
 
@@ -83,7 +84,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${montserrat.variable}`}>
+    <html lang="en" className={`${oswald.variable} ${montserrat.variable}`}>
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
