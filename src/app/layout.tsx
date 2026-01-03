@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const oswald = Oswald({
@@ -24,7 +25,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-dumpster-rental.com'),
   title: {
-    default: 'Boise Dumpster Rental | Roll-Off Containers Idaho | (208) 943-5231',
+    default: 'Boise Dumpster Rental | 10-40 Yard Sizes | Top Shelf',
     template: '%s | Boise Dumpster Rental',
   },
   description: 'Need a dumpster in Boise? Same-day delivery on 10, 15, 20, 30, and 40 yard roll-off containers. Fair pricing, no hidden fees. Perfect for construction, cleanouts, and remodels. Call (208) 943-5231 today.',
@@ -131,6 +132,7 @@ export default function RootLayout({
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Dumpster Rental" siteUrl="https://boise-dumpster-rental.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
