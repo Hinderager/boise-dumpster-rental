@@ -133,8 +133,11 @@ export default function RootLayout({
         </QuoteFormProvider>
         <StructuredData />
         <BreadcrumbSchema siteName="Top Shelf Dumpster Rental" siteUrl="https://boise-dumpster-rental.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://www.google.com" />
       </body>
