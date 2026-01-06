@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, Trash2 } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Dumpster Rental Boise | Boise Dumpster Rental',
@@ -29,6 +30,7 @@ export default function BoisePage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Fast, reliable dumpster rental service throughout Boise, Idaho.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

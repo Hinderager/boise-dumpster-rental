@@ -6,7 +6,6 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
-import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const oswald = Oswald({
@@ -125,7 +124,6 @@ export default function RootLayout({
         </noscript>
         <QuoteFormProvider>
           <Header />
-          <VisibleBreadcrumb />
           <main>{children}</main>
           <Footer />
         </QuoteFormProvider>

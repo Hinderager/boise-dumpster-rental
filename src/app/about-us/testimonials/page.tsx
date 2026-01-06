@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 import { GoogleReviews } from '@/components/GoogleReviews'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Customer Testimonials | Boise Dumpster Rental',
@@ -17,6 +18,7 @@ export default function TestimonialsPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">See what our customers in the Treasure Valley are saying.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
