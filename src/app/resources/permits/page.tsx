@@ -144,7 +144,7 @@ export default function PermitsPage() {
               <p><strong>Step 1:</strong> Contact the city where you're placing the dumpster (not necessarily where you live).</p>
               <p><strong>Step 2:</strong> Tell them you need a dumpster placement permit and give them the dates you'll have it.</p>
               <p><strong>Step 3:</strong> Fill out their application (usually simple—just your name, address, dates).</p>
-              <p><strong>Step 4:</strong> Pay the fee. Usually $25-$75 depending on the city and duration.</p>
+              <p><strong>Step 4:</strong> Pay the permit fee, which varies by city and duration.</p>
               <p><strong>Step 5:</strong> Keep the permit with you or posted where required.</p>
               <p className="font-bold text-dark-blue">We can help walk you through this if it's your first time. Just ask when you call.</p>
             </div>
@@ -157,7 +157,7 @@ export default function PermitsPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-dark-blue mb-6">What if I Don't Get a Permit?</h2>
             <div className="prose prose-lg max-w-none text-gray-600">
-              <p>Cities can (and do) issue fines for unpermitted dumpsters on public streets. We're talking $100-$500 depending on the city.</p>
+              <p>Cities can (and do) issue fines for unpermitted dumpsters on public streets. The fines are significant—much more than the cost of the permit itself.</p>
               <p>It's not worth the risk. If you need it on the street, get the permit.</p>
               <p>That said, 90% of residential dumpsters go on driveways and don't need permits at all.</p>
             </div>

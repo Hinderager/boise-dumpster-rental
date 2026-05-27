@@ -31,8 +31,8 @@ export default function Boise20YardPage() {
               <p>Dimensions: 20ft long × 8ft wide × 4ft high. Holds about 6 pickup truck loads.</p>
               <p>Perfect for kitchen remodels, bathroom renovations, large deck removal, multi-room cleanouts, roofing projects on small to medium homes, and estate cleanouts.</p>
 
-              <h2>Typical Pricing for Boise</h2>
-              <p>Most 20 yard rentals in Boise run $425-$525 for a week, including delivery, pickup, and disposal. Heavy materials like concrete or shingles may cost more due to weight.</p>
+              <h2>What Affects the Price</h2>
+              <p>20-yard rentals in Boise are priced as a flat weekly rate that includes delivery, pickup, and standard disposal. Heavy materials like concrete or shingles add disposal fees due to weight. Call us for a straight quote on your project.</p>
 
               <h2>Boise Neighborhoods We Serve</h2>
               <p>We deliver to all Boise neighborhoods including North End, East End, Bench, Southeast Boise, West Boise, Downtown, Boise State area, and more.</p>

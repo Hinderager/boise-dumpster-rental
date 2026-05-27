@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 export const faqs = [
   {
     question: 'How much does dumpster rental cost in Boise?',
-    answer: 'Dumpster rental prices depend on the size you need and how long you keep it. Our 10-yard dumpsters start around $275-$350 for a week. 20-yard dumpsters run $350-$450. We include delivery, pickup, and disposal in our pricing. No hidden fees.'
+    answer: 'Dumpster rental prices depend on the size you need, how long you keep it, the weight of the debris, and the type of materials (heavy stuff like concrete or roofing adds disposal fees). Our pricing always includes delivery, pickup, and standard disposal. Call us with your project details and we\'ll quote a flat rate with no hidden fees.'
   },
   {
     question: 'What size dumpster do I need?',

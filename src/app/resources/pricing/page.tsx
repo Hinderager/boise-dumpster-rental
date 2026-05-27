@@ -34,35 +34,30 @@ export default function PricingPage() {
       <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-dark-blue mb-8">Typical Pricing by Size</h2>
+            <h2 className="text-3xl font-bold text-dark-blue mb-8">Dumpster Sizes We Offer</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-bold text-dark-blue mb-2">10 Yard Dumpster</h3>
-                <p className="text-3xl font-bold text-[#FFC845] mb-2">$300-$400</p>
-                <p className="text-gray-600">Perfect for small cleanouts or minor renovations. Holds about 3 pickup truck loads.</p>
+                <p className="text-gray-600">Perfect for small cleanouts or minor renovations. Holds about 3 pickup truck loads. Our most budget-friendly option.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-bold text-dark-blue mb-2">15 Yard Dumpster</h3>
-                <p className="text-3xl font-bold text-[#FFC845] mb-2">$375-$475</p>
                 <p className="text-gray-600">Good for medium projects like deck removal or garage cleanouts. Holds about 4.5 pickup loads.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-bold text-dark-blue mb-2">20 Yard Dumpster</h3>
-                <p className="text-3xl font-bold text-[#FFC845] mb-2">$425-$525</p>
                 <p className="text-gray-600">Most popular size. Great for full room remodels or large cleanouts. Holds about 6 pickup loads.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-bold text-dark-blue mb-2">30 Yard Dumpster</h3>
-                <p className="text-3xl font-bold text-[#FFC845] mb-2">$500-$625</p>
                 <p className="text-gray-600">Large construction projects or major demolition. Holds about 9 pickup loads.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-bold text-dark-blue mb-2">40 Yard Dumpster</h3>
-                <p className="text-3xl font-bold text-[#FFC845] mb-2">$575-$725</p>
                 <p className="text-gray-600">Biggest size. Commercial projects or full-house cleanouts. Holds about 12 pickup loads.</p>
               </div>
             </div>
-            <p className="text-sm text-gray-500 mt-6 italic">*Prices are estimates for standard 7-day rental with typical weight limits in Boise area. Call for exact quote.</p>
+            <p className="text-sm text-gray-500 mt-6 italic">*Every job is different. Call for an exact quote based on your size, materials, and rental period.</p>
           </div>
         </div>
       </section>
@@ -90,7 +85,7 @@ export default function PricingPage() {
                 <AlertCircle className="w-8 h-8 text-[#FFC845] flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-xl font-bold text-dark-blue mb-2">Rental Period</h3>
-                  <p className="text-gray-600">Most rentals include 7 days. Need it longer? Usually $10-15 per extra day.</p>
+                  <p className="text-gray-600">Most rentals include 7 days. Need it longer? Daily extensions are available at a flat per-day rate.</p>
                 </div>
               </div>
             </div>

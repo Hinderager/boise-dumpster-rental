@@ -104,7 +104,7 @@ export default function HowLongCanIKeepADumpster() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Daily extension fees.</strong> Most companies charge $5-15 per additional day. If you're only a day or two over, this is usually the cheapest option.
+              <strong>Daily extension fees.</strong> Most companies charge a modest per-day fee for extensions. If you're only a day or two over, this is usually the cheapest option.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">

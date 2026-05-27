@@ -185,7 +185,7 @@ export default function WhatCanGoInADumpster() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Removal fees.</strong> You'll typically be charged $50-150+ to have the item removed and properly disposed of. This is on top of your rental cost.
+              <strong>Removal fees.</strong> You'll be charged extra to have the prohibited item removed and properly disposed of. This is on top of your rental cost.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">

@@ -46,7 +46,7 @@ export default function DumpsterRentalCostBoise() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Pricing dumpster rentals isn't always straightforward. You'll see ranges from $200 to $600+ depending on where you look, and it's hard to know what's realistic for the Boise area specifically.
+              Pricing dumpster rentals isn't always straightforward. You'll see different ranges depending on where you look, and it's hard to know what's realistic for the Boise area specifically.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               Here's what actually goes into dumpster rental pricing in the Treasure Valley, what you can expect to pay, and how to avoid surprise charges.
@@ -73,19 +73,19 @@ export default function DumpsterRentalCostBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>10-yard dumpster:</strong> $250-350. Good for small cleanouts, single-room renovations, or moderate yard debris. Holds roughly 3 pickup truck loads.
+              <strong>10-yard dumpster:</strong> Good for small cleanouts, single-room renovations, or moderate yard debris. Holds roughly 3 pickup truck loads. The most budget-friendly option.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>15-yard dumpster:</strong> $300-400. Works for medium projects—kitchen remodels, basement cleanouts, or moving debris. Holds about 4-5 pickup truck loads.
+              <strong>15-yard dumpster:</strong> Works for medium projects—kitchen remodels, basement cleanouts, or moving debris. Holds about 4-5 pickup truck loads.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>20-yard dumpster:</strong> $350-450. Popular for larger renovations, roofing projects, or whole-house cleanouts. Holds 6-8 pickup truck loads.
+              <strong>20-yard dumpster:</strong> Popular for larger renovations, roofing projects, or whole-house cleanouts. Holds 6-8 pickup truck loads.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              <strong>30-yard dumpster:</strong> $400-550. For major construction projects, large demolition, or commercial work. Holds 9-12 pickup truck loads.
+              <strong>30-yard dumpster:</strong> For major construction projects, large demolition, or commercial work. Holds 9-12 pickup truck loads. The most capacity but also the most weight allowance.
             </p>
           </div>
         </div>
@@ -135,15 +135,15 @@ export default function DumpsterRentalCostBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Overage fees.</strong> If your debris weighs more than the included allowance, you'll pay extra—usually $40-75 per additional ton. Heavy materials like concrete add up fast.
+              <strong>Overage fees.</strong> If your debris weighs more than the included allowance, you'll pay extra per additional ton. Heavy materials like concrete and shingles add up fast.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Extended rental.</strong> Need the dumpster longer than the standard period? Expect $5-15 per additional day.
+              <strong>Extended rental.</strong> Need the dumpster longer than the standard period? Expect a modest per-day fee for each additional day.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Prohibited items.</strong> If you put something in the dumpster that shouldn't be there (more on that in another post), removal can cost $50-150+ depending on the material.
+              <strong>Prohibited items.</strong> If you put something in the dumpster that shouldn't be there (more on that in another post), expect a removal fee depending on the material and disposal requirements.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -151,7 +151,7 @@ export default function DumpsterRentalCostBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              <strong>Permits.</strong> If you need to place the dumpster on a public street rather than your property, the City of Boise requires a permit. This is a separate cost, usually $30-50.
+              <strong>Permits.</strong> If you need to place the dumpster on a public street rather than your property, the City of Boise requires a permit. The permit fee is modest but it's a separate cost from your rental.
             </p>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function DumpsterRentalCostBoise() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              For most Boise homeowners, dumpster rental runs $300-450 for a typical project—cleanout, renovation, or yard work. Going bigger or dealing with heavy materials costs more.
+              For most Boise homeowners, a single-week rental of a mid-size dumpster covers a typical project—cleanout, renovation, or yard work. Going bigger or dealing with heavy materials costs more, but you'll know the price up front.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">

@@ -135,7 +135,7 @@ export default function WhereToPlaceDumpster() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>City of Boise permit.</strong> The city requires a permit for placing dumpsters or other containers in the public right-of-way. The permit typically costs $30-50 and is issued for a specific time period.
+              <strong>City of Boise permit.</strong> The city requires a permit for placing dumpsters or other containers in the public right-of-way. The permit fee is modest and the permit is issued for a specific time period.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
