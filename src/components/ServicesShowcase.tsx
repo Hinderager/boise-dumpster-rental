@@ -6,28 +6,28 @@ const services = [
     title: 'Residential Dumpster Rental',
     description: 'Cleaning out the garage, remodeling a bathroom, or tackling a big home project? Our residential dumpsters make it easy. We drop it off, you fill it up, and we haul it away. No hassle, no mess in your yard. Most customers keep the dumpster for 7-10 days, but we can work with your timeline.',
     image: '/generated/residential-dumpster.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Construction Dumpsters',
     description: 'Contractors and builders rely on us for reliable roll-off service. Whether it\'s a kitchen remodel, new construction, or demolition project, we have the right size dumpster. We understand construction schedules—that\'s why we offer flexible rental periods and quick swaps when you fill one up.',
     image: '/generated/construction-dumpster.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Roofing Dumpsters',
     description: 'Roofing debris is heavy and awkward to handle. Our dumpsters can handle the weight of shingles, underlayment, and other roofing materials. We work with roofing crews all over Boise—same-day delivery means your project stays on schedule. Clean driveway when we leave, guaranteed.',
     image: '/generated/roofing-dumpster.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Estate & Cleanout Projects',
     description: 'Dealing with an estate cleanout or major decluttering project? A dumpster makes the job so much easier. Just toss everything in and we take care of the rest. We can provide multiple sizes depending on how much stuff needs to go. One call and the container shows up at your door.',
     image: '/generated/cleanout-dumpster.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
 ]
@@ -96,9 +96,9 @@ export function ServicesShowcase() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>
