@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Business Cleanout Dumpster Rental Boise | Top Shelf Dumpster Rental',
+  title: 'Business Cleanout Dumpster Rental Boise | Boise Dumpster Rental',
   description: 'Rent dumpsters for business cleanouts in Boise. Office, retail, warehouse, and commercial space cleanouts. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters/business-cleanout' },
 }

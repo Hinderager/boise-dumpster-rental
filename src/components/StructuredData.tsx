@@ -23,11 +23,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Dumpster Rental Pros - ${city}`,
+    "name": "Boise Dumpster Rental",
     "description": `Affordable dumpster rental in ${city}, Idaho. Same-day delivery, competitive pricing, multiple sizes available. Licensed and insured.`,
     "url": "https://boise-dumpster-rental.com",
     "telephone": "+1-208-943-5231",
-    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,
@@ -76,7 +75,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Dumpster Rental Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Dumpster Rental Pros"
+      "name": "Boise Dumpster Rental"
     },
     "areaServed": {
       "@type": "State",

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: '10 Yard Dumpster Rental Boise | Top Shelf Dumpster Rental',
+  title: '10 Yard Dumpster Rental Boise | Boise Dumpster Rental',
   description: 'Rent a 10 yard dumpster in Boise for small cleanouts, garage projects, and minor renovations. Perfect for homeowners. Call (208) 943-5231 for pricing.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/dumpster-sizes/10-yard' },
 }

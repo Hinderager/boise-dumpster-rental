@@ -25,7 +25,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-dumpster-rental.com'),
   title: {
-    default: 'Boise Dumpster Rental | 10-40 Yard Sizes | Top Shelf',
+    default: 'Boise Dumpster Rental | 10-40 Yard Sizes | Boise Dumpster Rental',
     template: '%s | Boise Dumpster Rental',
   },
   description: 'Need a dumpster in Boise? Same-day delivery on 10, 15, 20, 30, and 40 yard roll-off containers. Fair pricing, no hidden fees. Perfect for construction, cleanouts, and remodels. Call (208) 943-5231 today.',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-dumpster-rental.com',
-    siteName: 'Top Shelf Dumpster Rental',
+    siteName: 'Boise Dumpster Rental',
     title: 'Boise Dumpster Rental | Roll-Off Containers Idaho',
     description: 'Same-day dumpster delivery throughout Boise and the Treasure Valley. 10, 15, 20, 30, and 40 yard roll-off containers available.',
     images: [
@@ -128,7 +128,7 @@ export default function RootLayout({
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
-        <BreadcrumbSchema siteName="Top Shelf Dumpster Rental" siteUrl="https://boise-dumpster-rental.com" />
+        <BreadcrumbSchema siteName="Boise Dumpster Rental" siteUrl="https://boise-dumpster-rental.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />

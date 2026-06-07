@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Lochsa Falls Meridian | Top Shelf',
+  title: 'Dumpster Rental Lochsa Falls Meridian | Boise Dumpster Rental',
   description: 'Dumpster Rental services in Lochsa Falls, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental Lochsa Falls', 'dumpster rental Lochsa Falls Meridian', 'Lochsa Falls meridian dumpster rental'],
   alternates: {
