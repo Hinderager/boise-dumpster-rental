@@ -52,7 +52,7 @@ const serviceAreas = [
 
 const resources = [
   { name: 'Dumpster Sizes', href: '/dumpster-sizes' },
-  { name: 'Pricing Guide', href: '/pricing' },
+  { name: 'Pricing Guide', href: '/resources/pricing' },
   { name: 'What Can Go In', href: '/accepted-items' },
   { name: 'Blog', href: '/blogs' },
 ]
