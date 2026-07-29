@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Tuscany Meridian | Boise Dumpster Rental',
+  title: 'Dumpster Rental Tuscany Meridian',
   description: 'Dumpster Rental services in Tuscany, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental Tuscany', 'dumpster rental Tuscany Meridian', 'Tuscany meridian dumpster rental'],
   alternates: {

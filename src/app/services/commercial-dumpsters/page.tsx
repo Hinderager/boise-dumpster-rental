@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Commercial Dumpster Rental | Boise Dumpster Rental',
+  title: 'Commercial Dumpster Rental',
   description: 'Commercial dumpster rental in Boise for contractors and businesses. Construction, demolition, and commercial cleanouts.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters' },
 }

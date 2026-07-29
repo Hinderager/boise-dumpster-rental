@@ -4,7 +4,7 @@ import { GoogleReviews } from '@/components/GoogleReviews'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Customer Testimonials | Boise Dumpster Rental',
+  title: 'Customer Testimonials',
   description: 'Read reviews from our customers in Boise and the Treasure Valley. See why people trust Boise Dumpster Rental.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/about-us/testimonials' },
 }

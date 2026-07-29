@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Phone, HelpCircle, DollarSign, Ruler, Trash2, FileText } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Resources | Boise Dumpster Rental',
+  title: 'Dumpster Rental Resources',
   description: 'Helpful resources for dumpster rental in Boise. FAQs, pricing guides, size charts, and more.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/resources' },
 }

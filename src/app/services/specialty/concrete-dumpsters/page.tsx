@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Concrete Dumpster Rental Boise | Boise Dumpster Rental',
+  title: 'Concrete Dumpster Rental Boise',
   description: 'Rent concrete dumpsters in Boise for heavy material disposal. Perfect for concrete, brick, and masonry debris. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/specialty/concrete-dumpsters' },
 }

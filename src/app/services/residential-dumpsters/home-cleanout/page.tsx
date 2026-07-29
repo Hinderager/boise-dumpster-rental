@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Home Cleanout Dumpster Rental Boise | Boise Dumpster Rental',
+  title: 'Home Cleanout Dumpster Rental Boise',
   description: 'Rent a dumpster for your home cleanout project in Boise. Perfect for garage, basement, attic, and whole house cleanouts. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/residential-dumpsters/home-cleanout' },
 }

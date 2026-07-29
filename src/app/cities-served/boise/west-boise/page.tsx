@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental West Boise Boise | Boise Dumpster Rental',
+  title: 'Dumpster Rental West Boise Boise',
   description: 'Dumpster Rental services in West Boise, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental West Boise', 'dumpster rental West Boise Boise', 'West Boise boise dumpster rental'],
   alternates: {

@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, FileText, AlertTriangle, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Permit Information | Boise Dumpster Rental',
+  title: 'Dumpster Permit Information',
   description: 'Do you need a permit for a dumpster in Boise? Learn about dumpster permits, when you need one, and how to get one.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/resources/permits' },
 }

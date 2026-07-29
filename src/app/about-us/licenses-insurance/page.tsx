@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Shield, FileCheck, Award } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Licenses & Insurance | Boise Dumpster Rental',
+  title: 'Licenses & Insurance',
   description: 'Boise Dumpster Rental is fully licensed and insured. View our credentials and insurance coverage.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/about-us/licenses-insurance' },
 }

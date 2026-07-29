@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Truck, Users, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Career Opportunities | Boise Dumpster Rental',
+  title: 'Career Opportunities',
   description: 'Career Opportunities at Boise Dumpster Rental. Join our team serving the Treasure Valley.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/about-us/careers' },
 }

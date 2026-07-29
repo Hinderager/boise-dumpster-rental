@@ -25,7 +25,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-dumpster-rental.com'),
   title: {
-    default: 'Boise Dumpster Rental | 10-40 Yard Sizes | Boise Dumpster Rental',
+    default: 'Boise Dumpster Rental | 10-40 Yard Sizes',
     template: '%s | Boise Dumpster Rental',
   },
   description: 'Need a dumpster in Boise? Same-day delivery on 10, 15, 20, 30, and 40 yard roll-off containers. Fair pricing, no hidden fees. Perfect for construction, cleanouts, and remodels. Call (208) 943-5231 today.',

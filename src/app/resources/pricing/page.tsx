@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, DollarSign, TrendingUp, AlertCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Pricing Guide | Boise Dumpster Rental',
+  title: 'Dumpster Rental Pricing Guide',
   description: 'How much does dumpster rental cost in Boise? Learn about pricing factors, size costs, and how to get the best deal.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/resources/pricing' },
 }

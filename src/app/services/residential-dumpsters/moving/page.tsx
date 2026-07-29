@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Moving & Downsizing Dumpster Rental Boise | Boise Dumpster Rental',
+  title: 'Moving & Downsizing Dumpster Rental Boise',
   description: 'Rent a dumpster for your move or downsizing project in Boise. Perfect for getting rid of unwanted items before you move. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/residential-dumpsters/moving' },
 }

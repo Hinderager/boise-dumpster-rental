@@ -5,20 +5,20 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Boise | Boise Dumpster Rental',
+  title: 'Dumpster Rental Boise',
   description: 'Dumpster rental in Boise, Idaho. All sizes from 10 to 40 yards. Residential and commercial. Same-day delivery available.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/cities-served/boise' },
 }
 
 const services = [
-  { title: '10 Yard Dumpster', slug: '10-yard-dumpster', description: 'Small projects and cleanouts' },
-  { title: '15 Yard Dumpster', slug: '15-yard-dumpster', description: 'Medium-sized projects' },
-  { title: '20 Yard Dumpster', slug: '20-yard-dumpster', description: 'Most popular size' },
-  { title: '30 Yard Dumpster', slug: '30-yard-dumpster', description: 'Large construction projects' },
-  { title: '40 Yard Dumpster', slug: '40-yard-dumpster', description: 'Commercial and industrial' },
-  { title: 'Residential Dumpster', slug: 'residential-dumpster', description: 'Home projects and cleanouts' },
-  { title: 'Commercial Dumpster', slug: 'commercial-dumpster', description: 'Business and contractor use' },
-  { title: 'Construction Dumpster', slug: 'construction-dumpster', description: 'Job site debris removal' },
+  { title: '10 Yard Dumpster', href: '/services/dumpster-sizes/10-yard', description: 'Small projects and cleanouts' },
+  { title: '15 Yard Dumpster', href: '/services/dumpster-sizes/15-yard', description: 'Medium-sized projects' },
+  { title: '20 Yard Dumpster', href: '/cities-served/boise/20-yard-dumpster', description: 'Most popular size' },
+  { title: '30 Yard Dumpster', href: '/services/dumpster-sizes/30-yard', description: 'Large construction projects' },
+  { title: '40 Yard Dumpster', href: '/services/dumpster-sizes/40-yard', description: 'Commercial and industrial' },
+  { title: 'Residential Dumpster', href: '/services/residential-dumpsters', description: 'Home projects and cleanouts' },
+  { title: 'Commercial Dumpster', href: '/services/commercial-dumpsters', description: 'Business and contractor use' },
+  { title: 'Construction Dumpster', href: '/services/specialty/concrete-dumpsters', description: 'Job site debris removal' },
 ]
 
 export default function BoisePage() {
@@ -43,8 +43,8 @@ export default function BoisePage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {services.map((service) => (
                 <Link
-                  key={service.slug}
-                  href={`/cities-served/boise/${service.slug}`}
+                  key={service.href}
+                  href={service.href}
                   className="bg-gradient-to-br from-slate-50 to-blue-50 p-6 rounded-xl hover:shadow-lg transition-shadow border border-gray-200 text-center"
                 >
                   <Trash2 className="w-10 h-10 text-[#FFC845] mx-auto mb-3" />

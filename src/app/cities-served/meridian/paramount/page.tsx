@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Paramount Meridian | Boise Dumpster Rental',
+  title: 'Dumpster Rental Paramount Meridian',
   description: 'Dumpster Rental services in Paramount, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental Paramount', 'dumpster rental Paramount Meridian', 'Paramount meridian dumpster rental'],
   alternates: {

@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Cities Served | Boise Dumpster Rental',
+  title: 'Cities Served',
   description: 'Dumpster rental service throughout the Treasure Valley. Boise, Meridian, Nampa, Caldwell, Eagle, and more.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/cities-served' },
 }

@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Boise Dumpster Rental',
+  title: 'Contact Us',
   description: 'Contact Boise Dumpster Rental for service in the Treasure Valley. Call (208) 943-5231 for fast dumpster delivery.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/contact' },
 }

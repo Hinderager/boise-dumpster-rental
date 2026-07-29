@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Harris Ranch Boise | Boise Dumpster Rental',
+  title: 'Dumpster Rental Harris Ranch Boise',
   description: 'Dumpster Rental services in Harris Ranch, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental Harris Ranch', 'dumpster rental Harris Ranch Boise', 'Harris Ranch boise dumpster rental'],
   alternates: {

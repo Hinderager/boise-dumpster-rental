@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental Downtown Nampa Nampa | Boise Dumpster Rental',
+  title: 'Dumpster Rental Downtown Nampa Nampa',
   description: 'Dumpster Rental services in Downtown Nampa, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental Downtown Nampa', 'dumpster rental Downtown Nampa Nampa', 'Downtown Nampa nampa dumpster rental'],
   alternates: {

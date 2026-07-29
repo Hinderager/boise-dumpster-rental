@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Yard Waste Dumpster Rental Boise | Boise Dumpster Rental',
+  title: 'Yard Waste Dumpster Rental Boise',
   description: 'Rent yard waste dumpsters in Boise for landscaping debris, brush, branches, and green waste removal. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/specialty/yard-waste' },
 }

@@ -4,7 +4,7 @@ import { FAQ } from '@/components/FAQ'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental FAQ | Boise Dumpster Rental',
+  title: 'Dumpster Rental FAQ',
   description: 'Frequently asked questions about dumpster rental in Boise. Get answers about pricing, sizes, delivery, and more.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/resources/faq' },
 }

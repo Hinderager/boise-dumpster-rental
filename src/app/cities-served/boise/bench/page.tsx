@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental The Bench Boise | Boise Dumpster Rental',
+  title: 'Dumpster Rental The Bench Boise',
   description: 'Dumpster Rental services in The Bench, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['dumpster rental The Bench', 'dumpster rental The Bench Boise', 'The Bench boise dumpster rental'],
   alternates: {
