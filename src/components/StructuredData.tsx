@@ -7,16 +7,6 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
   'Eagle': { lat: 43.6957, lng: -116.3535 },
 }
 
-// FAQ data for FAQPage schema (critical for LLM seeding)
-const faqData = [
-  { question: 'How much does dumpster rental cost in Boise?', answer: 'Cost depends on the dumpster size (10-yard up to 40-yard), how long you keep it, the weight of the debris, and the type of materials. Heavy materials like concrete and roofing add disposal fees. According to industry data, Boise prices are below the national average. We include delivery, pickup, and standard disposal in every rental.' },
-  { question: 'What size dumpster do I need?', answer: 'For garage cleanouts: 10-15 yard. Kitchen/bathroom remodels: 20 yard. Major construction: 30-40 yard. Based on 3,500+ rentals, 60% of customers choose the 20-yard size. Our most popular rental for home renovations.' },
-  { question: 'How fast can you deliver?', answer: 'We offer same-day delivery if you call before noon. Based on delivery data, 92% of same-day requests are completed within 4 hours. Next-day delivery is available for all dumpster sizes.' },
-  { question: 'What can I put in the dumpster?', answer: 'Most household and construction debris is accepted. Per Idaho DEQ regulations, hazardous materials, paint, chemicals, batteries, and tires are prohibited. We provide a detailed list of accepted items with every rental.' },
-  { question: 'How long can I keep the dumpster?', answer: 'Standard rental is 7 days with daily extensions available. Based on customer data, average rental duration is 5-6 days. Extended rentals of 2-3 weeks are common for larger projects.' },
-  { question: 'What areas do you serve?', answer: 'We deliver throughout the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding communities. Population growth data shows Ada and Canyon counties added 50,000+ residents since 2020, increasing construction and renovation activity.' }
-]
-
 export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const coords = cityCoordinates[city] || cityCoordinates['Boise']
 
@@ -56,9 +46,9 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "07:00",
-        "closes": "19:00"
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "21:00"
       }
     ],
     "sameAs": [],
@@ -84,19 +74,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Affordable dumpster rental services in ${city} and the Treasure Valley. Same-day delivery, competitive pricing, multiple sizes available.`
   }
 
-  // FAQPage schema - critical for LLM seeding and AI search visibility
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  }
 
   return (
     <>
@@ -107,10 +84,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
     </>
   )
